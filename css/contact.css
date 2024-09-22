@@ -64,3 +64,79 @@ a {
   background: #444;
 
 }
+
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: #222;
+  border: 1px solid #222;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.container-contact {
+  padding: 100px 0px;
+  min-height: 100vh;
+}
+.contact-form-container{
+max-width: 600px;
+margin: auto;
+}
+.contact-form-container form label{
+  display: block;
+  font-weight: 700;
+}
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.contact-form-container form input, textarea{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.my-20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ^footer */
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
+}

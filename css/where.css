@@ -64,3 +64,56 @@ a {
   background: #444;
 
 }
+
+.where {
+  padding: 180px 150px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 40%;
+  border: 1px solid #ddd;
+
+}
+
+.where-text {
+  float: right;
+  width: 50%;
+}
+
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chip {
+  display: inline-block;
+  width: 35px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+}
+
+.chip-brown {
+  background: rgb(82, 30, 30);
+}
+
+.chip-purple {
+  background: purple;
+}
+
+
+/* ^footer */
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
