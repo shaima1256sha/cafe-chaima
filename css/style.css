@@ -9,6 +9,7 @@
 html,
 body {
   font-family: "Open Sans", sans-serif;
+  color: #222;
 }
 p{
   margin-bottom: 10px;
@@ -112,4 +113,19 @@ a {
 .my-10{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.container{
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+/* features */
+.feature{
+  float: left;
+  width: 50%;
+}
+.features{
+  padding: 100px 0px;
+  overflow: auto;
+  text-align: center;
 }
