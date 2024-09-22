@@ -10,7 +10,9 @@ html,
 body {
   font-family: "Open Sans", sans-serif;
 }
-
+p{
+  margin-bottom: 10px;
+}
 h1,
 h2,
 h3 {
@@ -63,4 +65,51 @@ a {
 .header nav ul li a:hover {
   background: #444;
 
+}
+/* vp  */
+.vp{
+  height: 700px;
+  background: url(../images/cafe1.jpg) center center;
+  background-size: cover;
+  text-align: center;
+}
+.vp-content{
+  max-width: 500px;
+  padding-top: 150px;
+  color: white;
+  display: block;
+  margin: auto;
+}
+.vp-content h1{
+  font-size: 50px;
+}
+.seperator{
+  margin: 20px auto;
+  height: 10px;
+  background: #111;
+  width: 100px;
+}
+.vp-content p{
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+}
+.btn{
+  display: inline-block;
+  padding: 15px 25px ;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.btn-primary{
+  background: white;
+  color: #222;
+}
+.btn-primary:hover{
+  background: #222;
+  color: white;
+}
+.my-10{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
